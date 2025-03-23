@@ -61,7 +61,7 @@ docker-compose up --build[1][3]
 python seed.py[3]
 
 # Execute search
-python cli.py -q "Tank Tops" -min 1000 -max 10000 -c Computers[2]
+python cli.py -q "Tank Tops" -min 1000 -max 10000 -c us-west1
 ```
 
 ## **7. GitHub Repository**
