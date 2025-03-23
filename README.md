@@ -69,4 +69,4 @@ python cli.py -q "Gaming Mouse" -min 1000 -max 10000 -c Computers[2]
 
 ## **7. GitHub Repository**
 Explore the full implementation:  
-[https://github.com/frizzyfreak/product-search-api](https://github.com/frizzyfreak/product-search-api)
+[https://github.com/frizzyfreak/product-search-api](https://github.com/frizzyfreak/product-search-api/master)
