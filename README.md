@@ -27,7 +27,7 @@ A high-performance product search system featuring:
 
 **Input Parameters**:
 ```
-python cli.py -q "Wireless Headphones" -min 1000 -max 5000 -c Electronics[2]
+python cli.py -q "apparel" -min 1000 -max 5000 -c us-west1
 ```
 
 **API Response**:
@@ -35,15 +35,12 @@ python cli.py -q "Wireless Headphones" -min 1000 -max 5000 -c Electronics[2]
 [
   {
     "id": "1", 
-    "name": "Wireless Headphones",
+    "name": "Tshirts",
     "price": 2999.99,
-    "category": "Electronics"
+    "category": "Men Clothing"
   }
 ]
 ```
-
-## **4. Live Link**
-`http://localhost:8080/products/search` (Local deployment via Docker) [1][3]
 
 ## **5. Screenshot of the Interface**
 ![image](https://github.com/user-attachments/assets/710da719-f400-447f-afbc-d2490525033d)
@@ -64,9 +61,9 @@ docker-compose up --build[1][3]
 python seed.py[3]
 
 # Execute search
-python cli.py -q "Gaming Mouse" -min 1000 -max 10000 -c Computers[2]
+python cli.py -q "Tank Tops" -min 1000 -max 10000 -c Computers[2]
 ```
 
 ## **7. GitHub Repository**
 Explore the full implementation:  
-[https://github.com/frizzyfreak/product-search-api](https://github.com/frizzyfreak/product-search-api/tree/master)
+[https://github.com/frizzyfreak/product-search-api](https://github.com/frizzyfreak/product-search-api)
