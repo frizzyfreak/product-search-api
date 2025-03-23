@@ -1,7 +1,10 @@
+Here's the README.md file for your Product Search API, following the format from your facial recognition project but adapted for this repository:
+
+```markdown
 # **Scalable Product Search API**
 
 ## **1. Methodology**
-<img src="https://user-images.githubusercontent.com/7460892/207003643-e03c8964-3f16-4a62-9a2d-b1eec5d8691f.png" width="80%" height="80%">
+
 
 **Technology Stack**:
 - **Backend Framework**: Go with Gin router [1]
@@ -10,7 +13,7 @@
 - **Tooling**: Docker for containerization [1][3]
 
 ## **2. Description**
-<img src="https://user-images.githubusercontent.com/7460892/207003772-ba2061bc-f8fd-4479-ba42-4712328b7085.png" width="80%" height="80%">
+
 
 A high-performance product search system featuring:
 - RESTful API endpoint (`/products/search`) [1]
@@ -20,6 +23,49 @@ A high-performance product search system featuring:
 - Automated data seeding with random products [3]
 
 ## **3. Input / Output**
-<img src="https://user-images.githubusercontent.com/7460892/207004091-8f67548d-50ac-49c3-b7cb-ef8ec18a6491.png" width="40%" height="40%">
+
 
 **Input Parameters**:
+```
+python cli.py -q "Wireless Headphones" -min 1000 -max 5000 -c Electronics[2]
+```
+
+**API Response**:
+```
+[
+  {
+    "id": "1", 
+    "name": "Wireless Headphones",
+    "price": 2999.99,
+    "category": "Electronics"
+  }
+]
+```
+
+## **4. Live Link**
+`http://localhost:8080/products/search` (Local deployment via Docker) [1][3]
+
+## **5. Screenshot of the Interface**
+
+
+*CLI interface showing search results [2]*
+
+## **6. How to Run**
+```
+# Clone repository
+git clone https://github.com/frizzyfreak/product-search-api
+cd product-search-api
+
+# Start containers
+docker-compose up --build[1][3]
+
+# Seed sample data (in new terminal)
+python seed.py[3]
+
+# Execute search
+python cli.py -q "Gaming Mouse" -min 1000 -max 10000 -c Computers[2]
+```
+
+## **7. GitHub Repository**
+Explore the full implementation:  
+[https://github.com/frizzyfreak/product-search-api](https://github.com/frizzyfreak/product-search-api)
