@@ -2,6 +2,8 @@
 # **Scalable Product Search API**
 
 ## **1. Methodology**
+![image](https://github.com/user-attachments/assets/350cfa35-6144-4547-ba2c-52b4ab1d7e82)
+
 
 
 **Technology Stack**:
@@ -44,6 +46,7 @@ python cli.py -q "Wireless Headphones" -min 1000 -max 5000 -c Electronics[2]
 `http://localhost:8080/products/search` (Local deployment via Docker) [1][3]
 
 ## **5. Screenshot of the Interface**
+![image](https://github.com/user-attachments/assets/710da719-f400-447f-afbc-d2490525033d)
 
 
 *CLI interface showing search results [2]*
