@@ -27,7 +27,7 @@ A high-performance product search system featuring:
 
 **Input Parameters**:
 ```
-python cli.py -q "Apparel" -min 1000 -max 5000 -c us-west1
+python cli.py -q "apparel" -min 1000 -max 5000 -c us-west1
 ```
 
 **API Response**:
