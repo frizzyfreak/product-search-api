@@ -1,6 +1,4 @@
-Here's the README.md file for your Product Search API, following the format from your facial recognition project but adapted for this repository:
 
-```markdown
 # **Scalable Product Search API**
 
 ## **1. Methodology**
