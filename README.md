@@ -2,7 +2,7 @@
 # **Scalable Product Search API**
 
 ## **1. Methodology**
-![image](https://github.com/user-attachments/assets/350cfa35-6144-4547-ba2c-52b4ab1d7e82)
+![image]([https://github.com/user-attachments/assets/350cfa35-6144-4547-ba2c-52b4ab1d7e82](https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6ffa9f3243caabb6/62dfc42612f4cd75109ddb77/search-toolkit-developers-ui-1920x1080.png))
 
 
 
